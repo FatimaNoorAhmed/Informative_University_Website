@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-......" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .fa {
+        padding: 20px;
+        text-align: center;
+        margin: 5px 2px;
+        font-size: 20px;
+        width: 40px;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+    .fa-heart{
+        color: black;
+        
+    }
+    .fa:hover {
+        opacity: 0.9;
+    }
+</style>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pictures/last.png"> </a>
+            <div class="nav-links" id="nav_links">
+         
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="acheivments.html">ACHIVEMENTS</a></li>
+                    <li><a href="Apply.html">APPLY HERE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US </h1>
+    </section>
+    
+
+     <!----javasricpt for toogle menue-->
+     
+     <!-- conatact us -->
+     <section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14480.391061755523!2d67.0699166!3d24.8605103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9f60d36339%3A0x1d64ea8b0a7ca381!2sMohammad%20Ali%20Jinnah%20University!5e0!3m2!1sen!2s!4v1703369199251!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                <h2>22-E, Block-6, PECHS, Lal Kothi Stop, Shahrah-e-Faisal, Karachi</h2>
+                    <p>Karachi, Sharah-e-faisal, PECHS</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                <h2> St-4, Sector 17-D, NH 5, Karachi, Karachi City, Sindh</h2>
+                    <p>Karachi, HIGHAY CAMUUS</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                <h2> No. 10, Sector-47 Korangi Creek Rd, Korangi Creek, Karachi, Karachi City, Sindh 75190</h2>
+                    <p>Karachi,  CAMPUS</p>
+                </span>
+            </div>
+        </div>
+        
+    
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-phone"></i>
+                <span>
+                <h2>0312345671</h2>
+                <p>Monday to Saturday 7AM TO 9PM</p>
+                </span>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                 <h2>FA22BESE0021@maju.edu.pk</h2>
+                 <h2>FA22BESE0011@maju.edu.pk</h2>
+                    <p>Email us your query</p>
+                </span>
+            
+            </div>
+           <div class="contact-col">
+            <form action="form.handler.php"method="post">
+                <input type="text" name="name" placeholder="Enter Your Name"required>
+                <input type="email" name="email" placeholder="Enter Your Email"required>
+                <input type="text" name="subject" placeholder="Enter Your Subject"required>
+                <textarea rows="8" name="message" placeholder="Message"required></textarea>
+                <button type="submit"class="hero-btn">Send Message</button>
+
+            </form>
+           </div>
+        </div>
+    </section>
+    
+    
+        
+    
+    
+       
+         
+            <!-- footer -->
+           <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Welcome to our esteemed university, where excellence meets innovation. At the heart of our academic community, we are dedicated to nurturing minds, fostering creativity, and instilling a passion for lifelong learning. With a commitment to academic rigor, state-of-the-art facilities, and a supportive environment, our university stands as a beacon of education, shaping future leaders and empowering individuals to make a lasting impact on the world.</p>
+    <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <br>
+        <a >Made by<i class="fa fa-heart"></i> Fatima Laiba</a>
+</section>
+
+        <!-- The rest of code... -->
+
+        
+         </section>
+    
+    
+        <script>
+            var navlinks = document.getElementById("nav_links");
+            function showMenu() {
+                navlinks.style.right = "0";
+            }
+        
+            function hideMenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>
